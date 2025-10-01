@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AprovaIFPI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="IMG/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="faixa" style=></header>
+    <nav>
+        <div class="logo">
+            <img src="IMG/logo (2).png" alt="" style="height: 50px; margin-left: 60px;">
+        </div>
+
+        <div class="links">
+            <a href="questoes.html">QUESTÕES</a>
+            <a href="conteudo.html">CONTEUDOS</a>
+            <a href="ranking.html">RANKING</a>
+            <a href="sobre.html">SOBRE</a>
+            <a href="perfil.html"><i class="bi bi-person-circle" id="person"></i></a>
+            <a href=""><i class="bi bi-search"></i></a>
+        </div>
+    </nav>
+
+
+
+    <div class="filtros-container">
+        <div class="texto-principal">Filtrar Questões</div>
+
+        <div class="filtros-linha">
+            <div class="filtro">
+                <label for="ano">Ano Letivo</label>
+                <select id="ano" name="ano">
+                    <option value="">Selecione</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                </select>
+            </div>
+
+            <div class="filtro">
+                <label for="xp">Dificuldade</label>
+                <select id="xp" name="xp">
+                    <option value="">Selecione</option>
+                    <option value="0-10">0 - 10 XP (Fácil)</option>
+                    <option value="11-20">11 - 20 XP (Médio)</option>
+                    <option value="21-30">21 - 30 XP (Difícil)</option>
+                    <option value="30+">30+ XP (Desafio)</option>
+                </select>
+            </div>
+
+            <div class="filtro">
+                <label for="materia">Matéria</label>
+                <select id="materia" name="materia">
+                    <option value="">Selecione</option>
+                    <option value="portugues">Português</option>
+                    <option value="matematica">Matemática</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div>
+        <div class="filtros-linha2">
+                <label for="status_resolucao">Status da Questão</label>
+                <select id="status_resolucao" name="status_resolucao">
+                    <option value="">Selecione</option>
+                    <option value="nao_respondida">Não Respondida</option>
+                    <option value="respondida">Respondida</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button class="btn-limpar" type="reset">Limpar</button>
+            <button class="btn-filtrar" type="submit">Filtrar</button>
+        </div>
+    </div>
+    <header class="faixa3" style=></header>
+    <div class="questoes">
+        <div class="grade">
+            <div class="item">
+                <p><strong>Questão 1 (Português)</strong></p>
+                <br>
+                <p>No segmento textual “E conseguiu; atravessou gerações!", a pontuação – ponto e vírgula – que
+                    relaciona as duas orações:</p>
+                <br>
+                <p>
+                    a) estabelece uma pausa enfática, sugerindo uma conclusão direta do período.<br>
+                    b) sugere uma enumeração de resultados, indicando uma relação de consequência.<br>
+                    c) substitui conectivos, como "porque", "visto que", indicando uma relação de causa.<br>
+                    d) introduz uma interrupção na progressão textual, dificultando a continuidade da ideia.<br>
+                    e) omite o sujeito (Raul Seixas) por meio de uma elipse, contribuindo para a continuidade textual.
+                </p>
+                <button onclick="mostrarResposta(this)">Ver Resposta</button>
+                <p class="resposta">Resposta: c)</p>
+            </div>
+
+            <div class="item">
+                <p><strong>Questão 1 (Matemática)</strong></p>
+                <br>
+                <p>Mariana, aluna do IFPI, está organizando uma festa de aniversário para seus colegas de sala. Ela
+                    precisa de 45 copos de plástico para a festa. Até agora, ela já comprou 15 copos e pretende comprar
+                    o restante em pacotes de 5 copos cada. Quantos pacotes de copos Mariana ainda precisa comprar?</p>
+                <br>
+                <p>
+                    a) 4 pacotes<br>
+                    b) 5 pacotes<br>
+                    c) 6 pacotes<br>
+                    d) 7 pacotes<br>
+                    e) 8 pacotes
+                </p>
+                <button onclick="mostrarResposta(this)">Ver Resposta</button>
+                <p class="resposta">Resposta: c)</p>
+            </div>
+
+            <div class="item">
+                <p><strong>Questão 2 (Português)</strong></p>
+                <br>
+                <p>No segundo verso da quarta estrofe (“Dos cascalhos, catedral”), temos uma figura de linguagem que,
+                    nesse caso, caracteriza-se pela omissão do verbo "refazer" por meio do uso da vírgula. Essa figura
+                    de construção sintática é chamada de:</p>
+                <br>
+                <p>
+                    a) Prosopopeia<br>
+                    b) Perífrase<br>
+                    c) Hipérbole<br>
+                    d) Comparação<br>
+                    e) Zeugma
+                </p>
+                <button onclick="mostrarResposta(this)">Ver Resposta</button>
+                <p class="resposta">Resposta: e)</p>
+            </div>
+
+            <div class="item">
+                <p><strong>Questão 2 (Matemática)</strong></p>
+                <br>
+                <p>No último jogo de basquete entre o 1º ano do curso de Agrimensura e o 1º ano do curso de
+                    Eletrotécnica, realizado durante a gincana do IFPI, foi constatado que foram feitas 82 cestas, sendo
+                    cestas que valem 2 pontos ou 3 pontos, totalizando 190 pontos. Com base nesses dados, podemos
+                    afirmar que, nesse jogo, houve:</p>
+                <br>
+                <p>
+                    a) 56 cestas de 3 pontos<br>
+                    b) 24 cestas de 2 pontos<br>
+                    c) 32 cestas de 2 pontos<br>
+                    d) 32 cestas de 3 pontos<br>
+                    e) 26 cestas de 3 pontos
+                </p>
+                <button onclick="mostrarResposta(this)">Ver Resposta</button>
+                <p class="resposta">Resposta: e)</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarResposta(botao) {
+            const resposta = botao.nextElementSibling;
+            resposta.style.display = resposta.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+    <footer class="faixa-2" style=></footer>
+</body>
+
+</html>
