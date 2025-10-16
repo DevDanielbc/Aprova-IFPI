@@ -492,3 +492,59 @@ font-family: 'Aileron', Arial, sans-serif;
   width: 82%;
   background-color: #2297c1;
 }
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .links a {
+    margin: 5px 10px;
+  }
+
+  .filtros-container {
+    margin: 14vh 5%;
+    height: auto;
+  }
+
+  .texto-principal,
+  .filtros-linha,
+  .filtros-linha2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .filtros-linha,
+  .filtros-linha2 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .botoes {
+    position: static;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+  }
+
+  .grade {
+    grid-template-columns: 1fr; 
+    max-width: 95%;
+  }
+
+  .item {
+    font-size: 15px;
+  }
+}
+
