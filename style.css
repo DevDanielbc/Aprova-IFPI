@@ -548,3 +548,202 @@ font-family: 'Aileron', Arial, sans-serif;
   }
 }
 
+/* SOBRE - NOVO DESIGN */
+.sobre-hero {
+  background: linear-gradient(to right, #2297c1, #33b3e2);
+  color: white;
+  text-align: center;
+  padding: 140px 20px 100px;
+  margin-top: 14vh;
+}
+
+.sobre-hero h1 {
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sobre-hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Container de seções com imagem */
+.sobre-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.sobre-conteudo {
+  flex: 1 1 450px;
+}
+
+.sobre-conteudo h2 {
+  color: #2297c1;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+}
+
+.sobre-imagem {
+  flex: 1 1 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+/* Missão */
+.sobre-missao {
+  text-align: center;
+  background: #f3f0f6;
+  padding: 100px 20px;
+}
+
+.sobre-missao h2 {
+  color: #2297c1;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sobre-missao p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Como funciona */
+.sobre-funciona {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.sobre-funciona h2 {
+  color: #2297c1;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.sobre-funciona .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sobre-funciona .card {
+  background: white;
+  width: 300px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sobre-funciona .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+.icone {
+  font-size: 40px;
+  color: #2297c1;
+  margin-bottom: 15px;
+}
+
+.sobre-funciona h3 {
+  color: #2297c1;
+  margin-bottom: 10px;
+}
+
+/* Tecnologias */
+.sobre-tecnologias {
+  text-align: center;
+  background: #f3f0f6;
+  padding: 100px 20px;
+}
+
+.sobre-tecnologias h2 {
+  color: #2297c1;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.tec-icons i {
+  font-size: 50px;
+  color: #2297c1;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.tec-icons i:hover {
+  transform: scale(1.1);
+}
+
+.sobre-tecnologias p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Contato */
+.sobre-contato {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.sobre-contato h2 {
+  color: #2297c1;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sobre-contato p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.botao-github {
+  display: inline-block;
+  background: #2297c1;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.botao-github:hover {
+  background: #1876a3;
+}
+
+@media (max-width: 768px) {
+  .sobre-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-imagem {
+    max-width: 90%;
+  }
+
+  .sobre-hero h1 {
+    font-size: 36px;
+  }
+}
