@@ -1,8 +1,4 @@
-* {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-}
+
 
 @font-face {
     font-family: 'Aileron';
@@ -10,6 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Aileron';
     src: url('fonts/Aileron-Black.otf') format('opentype');
@@ -17,12 +14,14 @@
     font-style: normal;
 }
 
+
 body {
   background-color: #f3f0f6;
 
   font-family: 'Aileron', Arial, sans-serif;
 
 }
+
 
 .faixa {
   position: fixed;
@@ -38,6 +37,7 @@ body {
       #f3f0f6);
 }
 
+
 nav {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -50,6 +50,7 @@ nav {
   justify-content: space-between;
 }
 
+
 .links {
   position: relative;
   width: 450px;
@@ -58,12 +59,14 @@ nav {
   margin-right: 60px;
 }
 
+
 .links a {
   font-family: 'Aileron', Arial, sans-serif;
   text-decoration: none;
   color: #008cd6;
   position: relative;
 }
+
 
 .links a::after {
   content: "";
@@ -80,13 +83,16 @@ nav {
   transition: 0.5s ease-in-out;
 }
 
+
 .links a:hover {
   color: #006ca7;
 }
 
+
 .links a:hover::after {
   width: 100%;
 }
+
 
 .filtros-container {
   background: #fff;
@@ -103,6 +109,7 @@ nav {
 
 
 
+
 .texto-principal {
   margin-top: 50px;
   font-size: 22px;
@@ -112,6 +119,7 @@ nav {
   color: #006ca7;
 }
 
+
 .filtros-linha {
   margin-left: 70px;
   display: flex;
@@ -119,6 +127,7 @@ nav {
   gap: 15px;
   margin-bottom: 120px;
 }
+
 
 .filtros-linha2 {
   margin-left: 70px;
@@ -131,10 +140,12 @@ nav {
 }
 
 
+
 .filtro {
   flex: 1;
   min-width: 150px;
 }
+
 
 
 
@@ -146,6 +157,7 @@ nav {
   text-align: right;
 }
 
+
 button {
   padding: 10px 20px;
   font-size: 14px;
@@ -155,21 +167,25 @@ button {
   margin-left: 10px;
 }
 
+
 .btn-filtrar {
   background-color: #1976d2;
   color: white;
 }
+
 
 .btn-limpar {
   background-color: #ddd;
   color: #333;
 }
 
+
 /*QUESTOES*/
 .questoes {
   margin-top: 10vh;
   margin-bottom: 6vh;
 }
+
 
 .grade {
   display: grid;
@@ -178,6 +194,7 @@ button {
   max-width: 90%;
   margin: 0 auto;
 }
+
 
 .item {
   font-family: 'Aileron', Arial, sans-serif;
@@ -192,6 +209,7 @@ button {
   justify-content: space-between;
 }
 
+
 button {
   margin-top: 15px;
   padding: 8px 12px;
@@ -203,9 +221,11 @@ button {
   font-weight: bold;
 }
 
+
 button:hover {
   background-color: #0d47a1;
 }
+
 
 .resposta {
   display: none;
@@ -214,11 +234,6 @@ button:hover {
   font-weight: bold;
 }
 
-/*SOBRE*/
-
-.banner {
-  margin-top: 12vh;
-}
 
 .cards {
   font-family: 'Aileron', Arial, sans-serif;
@@ -231,6 +246,7 @@ button:hover {
   margin-bottom: 12vh;
 }
 
+
 .card {
   width: 360px;
   background-color: #fff;
@@ -241,6 +257,7 @@ button:hover {
   flex-direction: column;
 }
 
+
 .card img {
   width: 100%;
   height: auto;
@@ -249,6 +266,7 @@ button:hover {
   display: block;
 }
 
+
 .card .texto {
   padding: 22px;
   font-size: 1rem;
@@ -256,9 +274,6 @@ button:hover {
   flex-grow: 1;
 }
 
-.carrossel {
-  margin-bottom: 12vh;
-}
 
 .faixa-2 {
   bottom: 0;
@@ -273,6 +288,7 @@ button:hover {
       #f3f0f6);
 }
 
+
 .faixa3 {
   top: 14vh;
   width: 100%;
@@ -285,6 +301,7 @@ button:hover {
       #f3f0f6,
       #f3f0f6);
 }
+
 
 /*CONTEUDOS*/
 
@@ -302,6 +319,7 @@ button:hover {
   font-weight: bold;
 }
 
+
 .subtitulo2 {
   background-color: #2297c1;
   height: 8vh;
@@ -315,6 +333,7 @@ font-family: 'Aileron', Arial, sans-serif;
   color: #ffffff;
   font-weight: bold;
 }
+
 
 .tabela {
   margin-left: auto;
@@ -330,11 +349,13 @@ font-family: 'Aileron', Arial, sans-serif;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
+
 .tabela th,
 .tabela td {
   padding: 15px;
   text-align: left;
 }
+
 
 .tabela th {
   background-color: #2297c1;
@@ -342,13 +363,16 @@ font-family: 'Aileron', Arial, sans-serif;
   color: #ffffff;
 }
 
+
 .tabela tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
+
 .tabela tr:hover {
   background-color: #aed2df;
 }
+
 
 /*RANKING*/
 
@@ -357,6 +381,7 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-left: 50px;
   margin-right: 50px;
 }
+
 
 
 h1 {
@@ -368,11 +393,13 @@ h1 {
   margin-bottom: 30px;
 }
 
+
 .filtro-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
+
 
 select,
 button {
@@ -383,10 +410,12 @@ button {
   margin-right: 10px;
 }
 
+
 select {
   background-color: white;
   color: #333;
 }
+
 
 button {
   background-color: #2297c1;
@@ -395,9 +424,11 @@ button {
   border: none;
 }
 
+
 button:hover {
   background-color: #1549b0;
 }
+
 
 table {
   font-family: 'Aileron', Arial, sans-serif;
@@ -410,37 +441,45 @@ table {
   margin-bottom: 100px;
 }
 
+
 th,
 td {
   padding: 14px 16px;
   text-align: center;
 }
 
+
 th {
   background-color: #e6efff;
   color: #2297c1;
 }
 
+
 tr:nth-child(even) {
   background-color: #f9fbff;
 }
 
+
 tr:hover {
   background-color: #e9f1ff;
 }
+
 
 .posicao::before {
   content: "🥇";
   margin-right: 5px;
 }
 
+
 tr:nth-child(2) .posicao::before {
   content: "🥈";
 }
 
+
 tr:nth-child(3) .posicao::before {
   content: "🥉";
 }
+
 
 /*PERFIL*/
 
@@ -457,6 +496,7 @@ font-family: 'Aileron', Arial, sans-serif;
   height: 86vh;
 }
 
+
 .perfil-img {
   margin-top: 230px;
   width: 120px;
@@ -467,6 +507,7 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-bottom: 20px;
 }
 
+
 .perfil-nome {
   font-size: 22px;
   font-weight: bold;
@@ -474,10 +515,12 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-bottom: 10px;
 }
 
+
 .perfil-info {
   font-size: 16px;
   margin: 6px 0;
 }
+
 
 .barra-xp {
   height: 14px;
@@ -487,11 +530,13 @@ font-family: 'Aileron', Arial, sans-serif;
   overflow: hidden;
 }
 
+
 .xp-preenchido {
   height: 100%;
   width: 82%;
   background-color: #2297c1;
 }
+
 
 
 @media (max-width: 768px) {
@@ -548,6 +593,7 @@ font-family: 'Aileron', Arial, sans-serif;
   }
 }
 
+
 /* SOBRE - NOVO DESIGN */
 .sobre-hero {
   background: linear-gradient(to right, #2297c1, #33b3e2);
@@ -557,6 +603,7 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-top: 14vh;
 }
 
+
 .sobre-hero h1 {
   color: white;
   font-size: 44px;
@@ -564,12 +611,14 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-bottom: 20px;
 }
 
+
 .sobre-hero p {
   font-size: 20px;
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
 }
+
 
 /* Container de seções com imagem */
 .sobre-container {
@@ -583,15 +632,18 @@ font-family: 'Aileron', Arial, sans-serif;
   flex-wrap: wrap;
 }
 
+
 .sobre-conteudo {
   flex: 1 1 450px;
 }
+
 
 .sobre-conteudo h2 {
   color: #2297c1;
   font-size: 28px;
   margin-bottom: 20px;
 }
+
 
 .sobre-conteudo p {
   font-size: 18px;
@@ -600,12 +652,14 @@ font-family: 'Aileron', Arial, sans-serif;
   text-align: justify;
 }
 
+
 .sobre-imagem {
   flex: 1 1 400px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   width: 100%;
 }
+
 
 /* Missão */
 .sobre-missao {
@@ -614,11 +668,13 @@ font-family: 'Aileron', Arial, sans-serif;
   padding: 100px 20px;
 }
 
+
 .sobre-missao h2 {
   color: #2297c1;
   font-size: 30px;
   margin-bottom: 20px;
 }
+
 
 .sobre-missao p {
   font-size: 18px;
@@ -627,11 +683,13 @@ font-family: 'Aileron', Arial, sans-serif;
   line-height: 1.6;
 }
 
+
 /* Como funciona */
 .sobre-funciona {
   text-align: center;
   padding: 100px 20px;
 }
+
 
 .sobre-funciona h2 {
   color: #2297c1;
@@ -639,12 +697,14 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-bottom: 50px;
 }
 
+
 .sobre-funciona .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
+
 
 .sobre-funciona .card {
   background: white;
@@ -655,10 +715,12 @@ font-family: 'Aileron', Arial, sans-serif;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .sobre-funciona .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 18px rgba(0,0,0,0.15);
 }
+
 
 .icone {
   font-size: 40px;
@@ -666,10 +728,12 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-bottom: 15px;
 }
 
+
 .sobre-funciona h3 {
   color: #2297c1;
   margin-bottom: 10px;
 }
+
 
 /* Tecnologias */
 .sobre-tecnologias {
@@ -678,11 +742,13 @@ font-family: 'Aileron', Arial, sans-serif;
   padding: 100px 20px;
 }
 
+
 .sobre-tecnologias h2 {
   color: #2297c1;
   font-size: 30px;
   margin-bottom: 30px;
 }
+
 
 .tec-icons i {
   font-size: 50px;
@@ -691,9 +757,11 @@ font-family: 'Aileron', Arial, sans-serif;
   transition: transform 0.3s ease;
 }
 
+
 .tec-icons i:hover {
   transform: scale(1.1);
 }
+
 
 .sobre-tecnologias p {
   font-size: 18px;
@@ -701,11 +769,13 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-top: 20px;
 }
 
+
 /* Contato */
 .sobre-contato {
   text-align: center;
   padding: 100px 20px;
 }
+
 
 .sobre-contato h2 {
   color: #2297c1;
@@ -713,10 +783,12 @@ font-family: 'Aileron', Arial, sans-serif;
   margin-bottom: 20px;
 }
 
+
 .sobre-contato p {
   font-size: 18px;
   margin-bottom: 25px;
 }
+
 
 .botao-github {
   display: inline-block;
@@ -729,9 +801,11 @@ font-family: 'Aileron', Arial, sans-serif;
   transition: background 0.3s ease;
 }
 
+
 .botao-github:hover {
   background: #1876a3;
 }
+
 
 @media (max-width: 768px) {
   .sobre-container {
@@ -749,6 +823,7 @@ font-family: 'Aileron', Arial, sans-serif;
 }
 
 
+
 /* ===== ANIMAÇÕES ===== */
 .fade-in {
   opacity: 0;
@@ -756,11 +831,13 @@ font-family: 'Aileron', Arial, sans-serif;
   animation: fadeIn 1s ease-out forwards;
 }
 
+
 .slide-up {
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 1.2s ease-out forwards;
 }
+
 
 @keyframes fadeIn {
   to {
@@ -769,12 +846,14 @@ font-family: 'Aileron', Arial, sans-serif;
   }
 }
 
+
 @keyframes slideUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 
 /* ===== AJUSTES ESTÉTICOS ===== */
 .sobre-hero {
@@ -787,6 +866,7 @@ font-family: 'Aileron', Arial, sans-serif;
   overflow: hidden;
 }
 
+
 .sobre-hero::after {
   content: "";
   position: absolute;
@@ -798,11 +878,13 @@ font-family: 'Aileron', Arial, sans-serif;
   clip-path: polygon(0 60%, 100% 0%, 100% 100%, 0% 100%);
 }
 
+
 .sobre-hero h1 {
   font-size: 46px;
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 
 .sobre-hero p {
   font-size: 20px;
@@ -811,21 +893,25 @@ font-family: 'Aileron', Arial, sans-serif;
   opacity: 0.95;
 }
 
+
 /* Hover sutil nos cards */
 .sobre-funciona .card:hover .icone {
   transform: scale(1.15);
   color: #1876a3;
 }
 
+
 .icone {
   transition: transform 0.3s ease, color 0.3s ease;
 }
+
 
 /* Melhor legibilidade no parágrafo longo */
 .sobre-conteudo p {
   color: #222;
   line-height: 1.8;
 }
+
 
 /* Margens mais equilibradas entre seções */
 .sobre-container,
@@ -835,4 +921,3 @@ font-family: 'Aileron', Arial, sans-serif;
 .sobre-contato {
   scroll-margin-top: 100px;
 }
-
