@@ -1,0 +1,434 @@
+</html>
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Aprova IFPI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="geral.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light navbar-expand-lg fixed-top">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+
+                <!-- Logo -->
+                <a class="navbar-brand ms-2" href="#">
+                    <img src="IMG/logo_aprovaifpi.svg" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">APROVAIFPI</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div
+                        class="offcanvas-body d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
+                            <li class="nav-item"><a class="nav-link active text-primary" href="questoes.html">QUESTÕES</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="conteudos.html">CONTEÚDOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ranking.html">RANKING</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sobre.html">SOBRE</a></li>
+                        </ul>
+
+                        <a href="#" class="perfil-link d-none d-lg-flex">
+                            <i class="bi bi-person-lines-fill perfil-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <header class="faixa"></header>
+        <section class="filtros py-5">
+            <div class="container">
+                <h3 class="text-start mb-4">Filtros de Questões</h3>
+                <form class="row g-3 justify-content-start">
+
+                    <!-- Dificuldade -->
+                    <div class="col-md-3">
+                        <label for="dificuldade" class="form-label">Dificuldade</label>
+                        <select id="dificuldade" class="form-select">
+                            <option selected>Selecione...</option>
+                            <option value="facil">Fácil</option>
+                            <option value="medio">Médio</option>
+                            <option value="dificil">Difícil</option>
+                        </select>
+                    </div>
+
+                    <!-- Ano -->
+                    <div class="col-md-3">
+                        <label for="ano" class="form-label">Ano</label>
+                        <select id="ano" class="form-select">
+                            <option selected>Selecione...</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                        </select>
+                    </div>
+
+                    <!-- Status -->
+                    <div class="col-md-3">
+                        <label for="status" class="form-label">Status</label>
+                        <select id="status" class="form-select">
+                            <option selected>Selecione...</option>
+                            <option value="respondida">Respondida</option>
+                            <option value="nao-respondida">Não Respondida</option>
+                        </select>
+                    </div>
+
+                    <!-- Botões -->
+                    <div class="col-12 text-start mt-3">
+                        <button type="reset" class="btn btn-outline-secondary me-2">Limpar</button>
+                        <button type="submit" class="btn btn-primary">Filtrar</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </section>
+
+    </header>
+
+
+    <main class="container py-4">
+        <br>
+        <br>
+        <!-- Questão 1 -->
+        <section class="mb-5 border rounded p-4 bg-light-subtle fade-up" id="q1">
+            <!-- Cabeçalho -->
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="fw-bold text-secondary">Q001</span>
+                <span class="badge bg-warning text-dark">Dificuldade: Média</span>
+            </div>
+
+            <h6 class="text-muted mb-3">
+                <strong>Ano:</strong> 2024 &nbsp; | &nbsp;
+                <strong>Órgão:</strong> Instituto Federal do Piauí &nbsp; | &nbsp;
+                <strong>Prova:</strong> Curso Ensino Médio Integrado
+            </h6>
+
+            <!-- Enunciado -->
+            <p class="fw-medium mb-4">
+                “Ele queria usar a música mais como meio do que como fim. Buscava emocionar. Investia na melodia, no
+                ritmo e na letra para provocar, simbolizar, desafiar. A obra musical de Raul Seixas atravessou gerações;
+                e conseguiu; atravessou gerações! <br><br>
+                No segmento textual “E conseguiu; atravessou gerações!”, a pontuação – ponto e vírgula – que
+                relaciona as duas orações:
+            </p>
+
+            <!-- Alternativas -->
+            <div class="list-group mb-3" id="questao1">
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="questao1" value="A"
+                        data-explicacao="Errada: o ponto e vírgula não indica conclusão, e sim causa.">
+                    <span><strong>A)</strong> estabelece uma pausa enfática, sugerindo uma conclusão direta do
+                        período.</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="questao1" value="B"
+                        data-explicacao="Errada: não há enumeração de resultados, e sim uma relação de causa.">
+                    <span><strong>B)</strong> sugere uma enumeração de resultados, indicando uma relação de
+                        consequência.</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="questao1" value="C" data-correta="true"
+                        data-explicacao="Correta! O ponto e vírgula substitui um conectivo causal, como 'porque'.">
+                    <span><strong>C)</strong> substitui conectivos, como "porque", "visto que", indicando uma relação de
+                        causa.</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="questao1" value="D"
+                        data-explicacao="Errada: não há interrupção no sentido, mas sim continuidade causal.">
+                    <span><strong>D)</strong> introduz uma interrupção na progressão textual, dificultando a
+                        continuidade da ideia.</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="questao1" value="E"
+                        data-explicacao="Errada: o sujeito não é omitido, apenas há relação causal entre as orações.">
+                    <span><strong>E)</strong> omite o sujeito (Raul Seixas) por meio de uma elipse, contribuindo para a
+                        continuidade textual.</span>
+                </label>
+            </div>
+
+            <button class="btn btn-primary fw-bold text-white px-4" onclick="verificarResposta(1)">Responder</button>
+
+            <!-- Mensagem de explicação -->
+            <p id="resultado1" class="mt-3 fw-bold"></p>
+        </section>
+        <br>
+
+        <!-- Questão 2 -->
+        <section class="mb-5 border rounded p-4 bg-light-subtle fade-up" id="q2">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="fw-bold text-secondary">Q002</span>
+                <span class="badge bg-success text-light">Dificuldade: Fácil</span>
+            </div>
+            <h6 class="text-muted mb-3">
+                <strong>Ano:</strong> 2024 &nbsp; | &nbsp;
+                <strong>Órgão:</strong> Instituto Federal do Piauí &nbsp; | &nbsp;
+                <strong>Prova:</strong> Curso Ensino Médio Integrado
+            </h6>
+
+            <p class="fw-medium mb-4">
+                No segundo verso da quarta estrofe (“Dos cascalhos, catedral”), temos uma figura de linguagem que,
+                nesse caso, caracteriza-se pela omissão do verbo "refazer" por meio do uso da vírgula. Essa figura
+                de construção sintática é chamada de:
+            </p>
+
+            <div class="list-group mb-3" id="questao2">
+                <label class="list-group-item d-flex align-items-center transition-all">
+                    <input class="form-check-input me-2" type="radio" name="questao2" value="A"
+                        data-explicacao="Errada: prosopopeia ocorre quando damos características humanas a seres inanimados.">
+                    <span><strong>A)</strong> Prosopopeia</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center transition-all">
+                    <input class="form-check-input me-2" type="radio" name="questao2" value="B"
+                        data-explicacao="Errada: perífrase é uma forma de se referir a algo ou alguém de modo indireto.">
+                    <span><strong>B)</strong> Perífrase</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center transition-all">
+                    <input class="form-check-input me-2" type="radio" name="questao2" value="C"
+                        data-explicacao="Errada: hipérbole é o exagero intencional de uma ideia.">
+                    <span><strong>C)</strong> Hipérbole</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center transition-all">
+                    <input class="form-check-input me-2" type="radio" name="questao2" value="D"
+                        data-explicacao="Errada: comparação usa termos como 'como' ou 'assim como', o que não ocorre aqui.">
+                    <span><strong>D)</strong> Comparação</span>
+                </label>
+
+                <label class="list-group-item d-flex align-items-center transition-all">
+                    <input class="form-check-input me-2" type="radio" name="questao2" value="E" data-correta="true"
+                        data-explicacao="Correta! A zeugma é a omissão de um termo já mencionado anteriormente, geralmente um verbo.">
+                    <span><strong>E)</strong> Zeugma</span>
+                </label>
+            </div>
+
+            <button class="btn btn-primary fw-bold text-white px-4" onclick="verificarResposta(2)">Responder</button>
+
+            <p id="resultado2" class="mt-3 fw-bold" style="opacity: 0; transition: opacity 0.6s ease;"></p>
+        </section>
+        <br>
+
+        <!-- Questão 3 -->
+        <section class="mb-5 border rounded p-4 bg-light-subtle fade-up" id="q3">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="fw-bold text-secondary">Q003</span>
+                <span class="badge bg-success text-dark">Dificuldade: Fácil</span>
+            </div>
+
+            <h6 class="text-muted mb-3">
+                <strong>Ano:</strong> 2024 &nbsp; | &nbsp;
+                <strong>Órgão:</strong> Instituto Federal do Piauí &nbsp; | &nbsp;
+                <strong>Prova:</strong> Curso Ensino Médio Integrado
+            </h6>
+
+
+            <p class="fw-medium mb-4">
+                Mariana, aluna do IFPI, está organizando uma festa de aniversário para seus colegas de sala.
+                Ela precisa de 45 copos de plástico para a festa. Até agora, ela já comprou 15 copos e pretende
+                comprar o restante em pacotes de 5 copos cada. Quantos pacotes de copos Mariana ainda precisa comprar?
+            </p>
+
+            <div class="list-group mb-3" id="questao3">
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="q3" value="a">
+                    <span><strong>A)</strong> 4 pacotes</span>
+                </label>
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="q3" value="b">
+                    <span><strong>B)</strong> 5 pacotes</span>
+                </label>
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="q3" value="c" data-correta="true">
+                    <span><strong>C)</strong> 6 pacotes</span>
+                </label>
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="q3" value="d">
+                    <span><strong>D)</strong> 7 pacotes</span>
+                </label>
+                <label class="list-group-item d-flex align-items-center">
+                    <input class="form-check-input me-2" type="radio" name="q3" value="e">
+                    <span><strong>E)</strong> 8 pacotes</span>
+                </label>
+            </div>
+
+            <button class="btn btn-primary fw-bold text-white px-4" onclick="verificarQuestao3()">Responder</button>
+            <p id="feedback3" class="mt-3 fw-semibold" style="opacity: 0; transition: opacity 0.6s ease;"></p>
+        </section>
+        <br>
+
+        <!-- Questão 4 -->
+        <section class="mb-5 border rounded p-4 bg-light-subtle fade-up" id="q4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="fw-bold text-secondary">Q004</span>
+                <span class="badge bg-warning text-dark">Dificuldade: Média</span>
+            </div>
+
+            <h6 class="text-muted mb-3">
+                <strong>Ano:</strong> 2024 &nbsp; | &nbsp;
+                <strong>Órgão:</strong> Instituto Federal do Piauí &nbsp; | &nbsp;
+                <strong>Prova:</strong> Curso Ensino Médio Integrado
+            </h6>
+
+            <p class="fw-medium mb-4">
+                No último jogo de basquete entre o 1º ano do curso de Agrimensura e o 1º ano do curso de
+                Eletrotécnica, realizado durante a gincana do IFPI, foi constatado que foram feitas 82 cestas,
+                sendo cestas que valem 2 pontos ou 3 pontos, totalizando 190 pontos.
+                <br><br>
+                Com base nesses dados, podemos afirmar que, nesse jogo, houve:
+            </p>
+
+            <form id="questao4" class="mt-3">
+                <div class="list-group mb-3" id="questao4">
+                    <label class="list-group-item d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="q4" value="a" id="q4a">
+                        <label class="form-check-label" for="q4a"><strong>A)</strong> 56 cestas de 3 pontos</label>
+                    </label>
+                    <label class="list-group-item d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="q4" value="b" id="q4b">
+                        <label class="form-check-label" for="q4b"><strong>B)</strong> 24 cestas de 2 pontos</label>
+                    </label>
+                    <label class="list-group-item d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="q4" value="c" id="q4c"
+                            data-correta="true">
+                        <label class="form-check-label" for="q4c"><strong>C)</strong> 32 cestas de 2 pontos</label>
+                    </label>
+                    <label class="list-group-item d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="q4" value="d" id="q4d">
+                        <label class="form-check-label" for="q4d"><strong>D)</strong> 32 cestas de 3 pontos</label>
+                    </label>
+                    <label class="list-group-item d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="q4" value="e" id="q4e">
+                        <label class="form-check-label" for="q4e"><strong>E</strong> 26 cestas de 3 pontos</label>
+                    </label>
+                </div>
+
+
+                <button type="button" class="btn btn-primary fw-bold text-white px-4"
+                    onclick="verificarQuestao4()">Responder</button>
+                <p id="feedback4" class="mt-3 fw-semibold" style="opacity: 0; transition: opacity 0.6s ease;"></p>
+            </form>
+        </section>
+        <!-- Resultado final -->
+        <section id="resultadoFinal" class="text-center my-5 p-4 bg-light rounded shadow-sm" style="display: none;">
+            <h4 class="fw-bold">Resultado Final</h4>
+            <p id="pontuacao" class="mt-3 fs-5"></p>
+        </section>
+    </main>
+    <footer class="bg-light text-dark pt-5 pb-3 ">
+        <div class="container">
+            <div class="row">
+
+                <!-- Coluna 1 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase fw-bold">AprovaIFPI.com</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-secondary text-decoration-none d-block py-1">Login</a></li>
+                        <li><a href="questoes.html" class="text-secondary text-decoration-none d-block py-1">Questões</a>
+                        </li>
+                        <li><a href="conteudos.html"
+                                class="text-secondary text-decoration-none d-block py-1">Conteúdos</a></li>
+                        <li><a href="ranking.html" class="text-secondary text-decoration-none d-block py-1">Rankings</a></li>
+                        <li><a href="sobre.html" class="text-secondary text-decoration-none d-block py-1">Sobre</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Perfil</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 2 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase fw-bold">Colaboradores</h5>
+                    <ul class="list-unstyled">
+                        <li>Aluno João Gabriel Lopes</li>
+                        <li>Aluno Marcos Winicius Gomes</li>
+                        <li>Aluno Victor Daniel Castro</li>
+                        <li>Prof. Alexandre Cajazeira</li>
+                        <li>Prof. Alexandre Lages</li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase fw-bold">Recursos Utilizados</h5>
+                    <ul class="list-unstyled">
+                        <li>Bootstrap 5</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVA SCRIPT</li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 4 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase fw-bold">Disciplinas</h5>
+                    <ul class="list-unstyled">
+                        <li>Português</li>
+                        <li>Matemática</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="border-light">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="IMG/logo_aprovaifpi.svg" alt="Logo AprovaIFPI" height="40" class="me-2">
+                    <span class="fw-bold">© 2025 - Um produto AprovaIFPI.com</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="pagina1.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const fadeElements = document.querySelectorAll(".fade-up");
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                        observer.unobserve(entry.target); // impede repetir animação
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            fadeElements.forEach(el => observer.observe(el));
+        });
+    </script>
+
+
+</body>
+
+</html>
